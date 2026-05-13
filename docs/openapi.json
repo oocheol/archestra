@@ -100722,6 +100722,12 @@
                           "$ref": "#/components/schemas/UserConfigFieldDefault"
                         }
                       },
+                      "presetSecretId": {
+                        "nullable": true,
+                        "type": "string",
+                        "format": "uuid",
+                        "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000|ffffffff-ffff-ffff-ffff-ffffffffffff)$"
+                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
@@ -100805,6 +100811,7 @@
                       "scope",
                       "parentCatalogItemId",
                       "presetFieldValues",
+                      "presetSecretId",
                       "createdAt",
                       "updatedAt",
                       "labels",
@@ -101557,6 +101564,12 @@
                       "$ref": "#/components/schemas/UserConfigFieldDefaultInput"
                     }
                   },
+                  "presetSecretId": {
+                    "nullable": true,
+                    "type": "string",
+                    "format": "uuid",
+                    "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000|ffffffff-ffff-ffff-ffff-ffffffffffff)$"
+                  },
                   "labels": {
                     "type": "array",
                     "items": {
@@ -102124,6 +102137,12 @@
                         "$ref": "#/components/schemas/UserConfigFieldDefault"
                       }
                     },
+                    "presetSecretId": {
+                      "nullable": true,
+                      "type": "string",
+                      "format": "uuid",
+                      "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000|ffffffff-ffff-ffff-ffff-ffffffffffff)$"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -102207,6 +102226,7 @@
                     "scope",
                     "parentCatalogItemId",
                     "presetFieldValues",
+                    "presetSecretId",
                     "createdAt",
                     "updatedAt",
                     "labels",
@@ -102993,6 +103013,12 @@
                         "$ref": "#/components/schemas/UserConfigFieldDefault"
                       }
                     },
+                    "presetSecretId": {
+                      "nullable": true,
+                      "type": "string",
+                      "format": "uuid",
+                      "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000|ffffffff-ffff-ffff-ffff-ffffffffffff)$"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -103076,6 +103102,7 @@
                     "scope",
                     "parentCatalogItemId",
                     "presetFieldValues",
+                    "presetSecretId",
                     "createdAt",
                     "updatedAt",
                     "labels",
@@ -103813,6 +103840,12 @@
                       "$ref": "#/components/schemas/UserConfigFieldDefaultInput"
                     }
                   },
+                  "presetSecretId": {
+                    "nullable": true,
+                    "type": "string",
+                    "format": "uuid",
+                    "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000|ffffffff-ffff-ffff-ffff-ffffffffffff)$"
+                  },
                   "labels": {
                     "type": "array",
                     "items": {
@@ -104388,6 +104421,12 @@
                         "$ref": "#/components/schemas/UserConfigFieldDefault"
                       }
                     },
+                    "presetSecretId": {
+                      "nullable": true,
+                      "type": "string",
+                      "format": "uuid",
+                      "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000|ffffffff-ffff-ffff-ffff-ffffffffffff)$"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -104471,6 +104510,7 @@
                     "scope",
                     "parentCatalogItemId",
                     "presetFieldValues",
+                    "presetSecretId",
                     "createdAt",
                     "updatedAt",
                     "labels",
@@ -107504,6 +107544,12 @@
                           "$ref": "#/components/schemas/UserConfigFieldDefault"
                         }
                       },
+                      "presetSecretId": {
+                        "nullable": true,
+                        "type": "string",
+                        "format": "uuid",
+                        "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000|ffffffff-ffff-ffff-ffff-ffffffffffff)$"
+                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
@@ -107587,6 +107633,7 @@
                       "scope",
                       "parentCatalogItemId",
                       "presetFieldValues",
+                      "presetSecretId",
                       "createdAt",
                       "updatedAt",
                       "labels",
@@ -108399,6 +108446,12 @@
                         "$ref": "#/components/schemas/UserConfigFieldDefault"
                       }
                     },
+                    "presetSecretId": {
+                      "nullable": true,
+                      "type": "string",
+                      "format": "uuid",
+                      "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000|ffffffff-ffff-ffff-ffff-ffffffffffff)$"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -108482,6 +108535,7 @@
                     "scope",
                     "parentCatalogItemId",
                     "presetFieldValues",
+                    "presetSecretId",
                     "createdAt",
                     "updatedAt",
                     "labels",
@@ -109302,6 +109356,12 @@
                         "$ref": "#/components/schemas/UserConfigFieldDefault"
                       }
                     },
+                    "presetSecretId": {
+                      "nullable": true,
+                      "type": "string",
+                      "format": "uuid",
+                      "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000|ffffffff-ffff-ffff-ffff-ffffffffffff)$"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -109385,6 +109445,7 @@
                     "scope",
                     "parentCatalogItemId",
                     "presetFieldValues",
+                    "presetSecretId",
                     "createdAt",
                     "updatedAt",
                     "labels",
@@ -136942,6 +137003,12 @@
                   },
                   "serviceAccount": {
                     "type": "string"
+                  },
+                  "presetFieldValues": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "$ref": "#/components/schemas/UserConfigFieldDefaultInput"
+                    }
                   }
                 },
                 "required": [
